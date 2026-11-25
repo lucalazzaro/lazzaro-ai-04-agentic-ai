@@ -1,0 +1,11 @@
+# Ambiente Python / Jupyter
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+
+# Dati locali e indici vettoriali
+data/
+chroma_db/
+*.csv
+*.json
