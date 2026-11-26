@@ -1,9 +1,9 @@
 # GreenThumb — Agentic Customer-Support Assistant
 
-> Progetto sviluppato nell'ambito del Master in AI Solution Architecture
-> (ProfessionAI) — modulo Agentic AI. Caso di studio a fini didattici.
+> Project developed as part of the Master in AI Solution Architecture
+> (ProfessionAI) — Agentic AI module. Educational case study.
 
-## Descrizione
+## Description
 An AI assistant for the fictional e-commerce company GreenThumb. It answers
 customer questions about returns, defective products and consumer rights by
 combining an LLM agent with a knowledge base of company policies. The agent is
@@ -19,14 +19,14 @@ automated metrics.
 - DeepEval and RAGAS (evaluation)
 - Google Colab notebook
 
-## Skill dimostrate
+## Demonstrated skills
 - Agent design with tool calling (LangGraph)
 - Retrieval over a policy knowledge base
 - Exposing an agent through a REST API
 - Automated evaluation of LLM answers (DeepEval, RAGAS)
 - Handling of customer-data privacy and consumer-law constraints in prompts
 
-## Come eseguire
+## How to run
 The notebook is designed for Google Colab. It reads the API key from Colab
 secrets (`OPENAI_API_KEY`).
 
@@ -42,6 +42,6 @@ export OPENAI_API_KEY="your-key-here"
 ```
 
 ## Note
-- Caso di studio a fini didattici. I dati, le aziende e i contatti citati nel
-  codice sono interamente fittizi. Email addresses use the `example.com` domain.
+- Educational case study. All data, companies and contacts mentioned in the
+  code are entirely fictional. Email addresses use the `example.com` domain.
 - `OPENAI_API_KEY` is required and must never be committed to the repository.
